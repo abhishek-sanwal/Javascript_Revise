@@ -43,14 +43,14 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   border: solid 2px black;
   box-shadow: 0 8 20px 0 #ffff;
-  transition-duration: 0.03s;
+  transition-duration: 0.1s;
   transition-timing-function: ease-in;
   transition-property: all;
 }
 
 .music {
-  outline: solid 4px yellow;
   transform: scale(1.1);
+  outline: solid 4px yellow;
 }
 
 span {
