@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "helvetica neue", sans-serif;
+  font-size: 1.6em;
+  background-color: #98b7e2;
+  color: black;
+  line-height: 1.5;
+}
+
+:root {
+  --color: #f2f2f2;
+  --spacing: 2rem;
+  --blur: 0;
+}
+
+.controls {
+  width: 80rem;
+  height: 40rem;
+  margin: 5rem auto;
+}
+.heading--container {
+  background: linear-gradient(45deg, red 10%, blue), peru;
+  background-clip: text;
+  color: transparent;
+}
+
+.main--heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.label--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.image--container {
+  background-color: var(--color);
+  margin: var(--spacing);
+  filter: blur(var(--blur));
+  height: 80rem;
+  width: 80rem;
+}
+.image {
+  height: 50rem;
+  width: auto;
+}
+
+.slider {
+  cursor: pointer;
+}

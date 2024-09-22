@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="es-US">
+  <head>
+    <meta charset="UTF=8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="topic" content="" />
+    <meta name="description" content="" />
+    <meta name="information" content="" />
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="print"
+      onload="this.media='all'; this.onload=null;"
+    />
+
+    <script defer src="app.js"></script>
+    <noscript>You need to enable js for this app</noscript>
+    <link rel="icon" href="" />
+  </head>
+
+  <body>
+    <div class="controls">
+      <div class="heading--container">
+        <h1 class="main--heading">
+          Update CSS Variables with
+          <span class=".js"> JS </span>
+        </h1>
+      </div>
+      <div class="label--container">
+        <label for="spacing">Spacing</label>
+        <input
+          class="slider"
+          type="range"
+          min="2"
+          max="100"
+          value="3"
+          id="spacing"
+          name="spacing"
+          data-unit="rem"
+        />
+
+        <label for="blur">Blur</label>
+        <input
+          class="slider"
+          type="range"
+          min="0"
+          max="100"
+          value="0"
+          id="blur"
+          name="blur"
+          data-unit="px"
+        />
+
+        <label for="color">Base Color</label>
+        <input type="color" value="#ffffff" id="color" name="color" />
+      </div>
+      <div class="image--container">
+        <img
+          loading="lazy"
+          src="https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?q=80&w=2652&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="An Image"
+          class="image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
