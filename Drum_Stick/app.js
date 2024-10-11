@@ -26,10 +26,8 @@ const handleMusic = (event) => {
   }
   //   It is click event
   else if (event.type === "click") {
-    console.log(this);
     divNode = event.currentTarget;
     data = divNode.dataset.key;
-    console.log(divNode, data);
   }
   // Select associated audio tag
   const audio = document.querySelector(`audio[${attr}="${data}"]`);
