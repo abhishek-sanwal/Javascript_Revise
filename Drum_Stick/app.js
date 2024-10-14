@@ -1,10 +1,7 @@
-//  Running Javascript
-
 // A function to remove music after transition gets completed
 const removeMusic = (event) => {
   if (event.propertyName === "transform") {
     event.currentTarget.classList.remove("music");
-    // divNode.classList.toggle("music");
   }
 };
 
